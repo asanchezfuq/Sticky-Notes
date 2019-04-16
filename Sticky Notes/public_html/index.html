@@ -5,21 +5,17 @@
 max-width:100%;
 background-color:#666;
 }
-
 .snote h2,p{
   font-size:100%;
   font-weight:normal;
 }
-
 .snote ul,li{
   list-style:none;
 }
-
 .snote ul{
   overflow:hidden;
   padding:3em;
 }
-
 .snote ul li a{
   text-decoration:none;
   color:#000;
@@ -38,7 +34,6 @@ background-color:#666;
   -o-transition:-o-transform .15s linear;
   -webkit-transition:-webkit-transform .15s linear;
 }
-
 .snote ul li:nth-child(even) a{
   -o-transform:rotate(4deg);
   -webkit-transform:rotate(4deg);
@@ -47,7 +42,6 @@ background-color:#666;
   top:5px;
   background:#cfc;
 }
-
 .snote ul li:nth-child(3n) a{
   -o-transform:rotate(-3deg);
   -webkit-transform:rotate(-3deg);
@@ -56,7 +50,6 @@ background-color:#666;
   top:-5px;
   background:#ccf;
 }
-
 .snote ul li:nth-child(5n) a{
   -o-transform:rotate(5deg);
   -webkit-transform:rotate(5deg);
@@ -65,7 +58,6 @@ background-color:#666;
   top:-10px;
   background:#fcf;
 }
-
 .snote ul li a:hover,ul li a:focus{
   -moz-box-shadow:10px 10px 7px rgba(0,0,0,.7);
   -webkit-box-shadow: 10px 10px 7px rgba(0,0,0,.7);
@@ -76,12 +68,10 @@ background-color:#666;
   position:relative;
   z-index:5;
 }
-
 .snote ul li{
   margin:1em;
   float:left;
 }
-
 .snote ul li h2{
   font-size:160%;
   font-weight:bold;
@@ -90,7 +80,6 @@ background-color:#666;
   text-align:center;
   color:#000;
 }
-
 .snote ul li p{
   font-family:'Shadows Into Light Two',arial,sans-serif;
   font-size:140%;
@@ -100,6 +89,18 @@ background-color:#666;
 </head>
 
 <html>
+    
+    <form action="" method="get">
+            <p><input type="text" name="title" id="NOTE1" placeholder="NOTE #1"></p>
+            <p><input type="text" name="content" id="cont" placeholder="note content"></p>
+                <p>
+                    <input type="submit" value="Enviar">
+                    <input type="reset" value="Borrar">
+                </p>
+    </form>
+    
+    
+    
     <div class="snote">
 <ul>
   <li>
